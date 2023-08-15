@@ -59,7 +59,7 @@ const Support = ({ menuOpen }) => {
                           {open ? <BiMinus /> : <BiPlus />}
                         </Disclosure.Button>
                         <Disclosure.Panel
-                          className={`px-4 pl-[33.7px] text-[14px] h-[54px]  py-[11px] dark:text-black  bg-gray-50 ${
+                          className={`px-4 pl-[33.7px] text-[14px] h-[79px]  py-[21px] dark:text-black  bg-gray-50 ${
                             index === faqs.length - 1 &&
                             open &&
                             "rounded-b-[10px]"
