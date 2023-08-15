@@ -3,11 +3,13 @@ import { Pie } from "react-chartjs-2";
 
 function PieChart({ chartData }) {
   return (
-    <div className="w-full p-[12px] md:w-[30%] bg-white">
+    <div className="w-full p-[12px] md:w-[30%] bg-white h-[300px]">
       <h2 style={{ textAlign: "center" }}>Pie Chart</h2>
       <Pie
         data={chartData}
+        height="100%"
         options={{
+          maintainAspectRatio: false,
           plugins: {
             title: {
               display: true,
